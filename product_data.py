@@ -50,3 +50,6 @@ results = recommend_products(products_with_sets, customer_preferences)
 print("\nRecommended Products:")
 for item in results:
     print(f"{item['name']} — Match Score: {item['match_score']}")
+    git add .
+git commit -m "Debugged final output issues"
+git push
